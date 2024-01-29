@@ -75,58 +75,53 @@
 
     <section class="container-fluid info">
 
-        <div class="row rowFiltro">
-        
-          <div class="colFiltro w-100 col-md-12 d-flex justify-content-center ">
+        <div class="row rowFiltro mb-5 d-flex justify-content-center align-content-center">
 
-            <div class="filtro p-4 rounded-4 d-flex justify-content-center">
+          <div class="col-md-5 filterLenguage d-flex justify-content-center align-content-center">
+            <h2 class="titleIdiomaFilter">
+              Idioma
+            </h2>
 
-              <div class="filterLenguage d-flex justify-content-center">
+            <div class="form-check espanolCheck d-flex justify-content-center align-content-center p-2">
+              <input class="form-check-input espanolInput me-2" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label espanolLabel" for="defaultCheck1">
+                Español
+              </label>
+            </div>
 
-                <h2 class="titleIdiomaFilter me-4">
-                  IDIOMA
-                </h2>
-
-                <div class="form-check espanolCheck me-3">
-                  <input class="form-check-input espanolInput" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label espanolLabel" for="defaultCheck1">
-                    Español
-                  </label>
-                </div>
-
-                <div class="form-check inglesCheck">
-                  <input class="form-check-input inglesInput" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label ingleslabel" for="defaultCheck1">
-                    Ingles
-                  </label>
-                </div>
-              </div>
-
-              <hr class="bordeR border-1 opacity-100">
-
-              <div class="filterModality d-flex">
-                <h2 class="titleModalidadFilter me-4">
-                  MODALIDAD
-                </h2>
-
-                <div class="form-check presencialCheck me-3">
-                  <label class="form-check-label presencialLabel" for="defaultCheck1">
-                    Presencial
-                  </label>
-                  <input class="form-check-input presencialInput" type="checkbox" value="" id="defaultCheck1">
-                </div>
-
-                <div class="form-check remotoCheck me-3">
-                  <input class="form-check-input remotoInput" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label remotoLabel" for="defaultCheck1">
-                    Remoto
-                  </label>
-                </div>  
-
-              </div>
-
+            <div class="form-check inglesCheck d-flex justify-content-center align-content-center p-2">
+              <input class="form-check-input inglesInput me-2" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label ingleslabel" for="defaultCheck1">
+                Ingles
+              </label>
             </div>
           </div>
+
+          <div class="col-md-1">
+            <span class="bordeR d-flex justify-content-center align-content-center">|</span>
+          </div>
+
+          
+          <div class="col-md-5 filterModality d-flex justify-content-center">
+            <h2 class="titleModalidadFilter">
+              Modalidad
+            </h2>
+
+            <div class="form-check presencialCheck d-flex justify-content-center align-content-center p-2">
+              <input class="form-check-input presencialInput me-2" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label presencialLabel" for="defaultCheck1">
+                Presencial
+              </label>
+            </div>
+
+            <div class="form-check remotoCheck d-flex justify-content-center align-content-center p-2">
+              <input class="form-check-input remotoInput me-2" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label remotoLabel" for="defaultCheck1">
+                Remoto
+              </label>
+            </div>  
+          </div>
+
         </div>
       
       <div class="row h-100 rowInfo">
